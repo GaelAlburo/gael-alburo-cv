@@ -1,0 +1,151 @@
+h2 {
+    font-size: calc(1.2rem + 3vw);
+  }
+
+h3 {
+    font-size: calc(1.2rem + 0.5vw);
+}
+
+.name-div {
+    margin-bottom: 48px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.nombre {
+    color: #8ec36e;
+    font-size: calc(4rem + 3.3vw);
+    font-weight: 500;
+    margin-right: 2rem;
+}
+
+.apellido1 {
+    font-size: calc(2.2rem + 3.3vw);
+    background-color: transparent;
+    font-weight: 400;
+    margin-right: 2rem;
+}
+
+.apellido2 {
+    font-size: calc(2.5rem + 3.3vw);
+    background-color: transparent;
+    font-weight: 400;
+
+}
+
+.row-txt{
+    font-size: calc(0.64rem + 0.3vw);
+}
+
+.row-txt-acerca{
+    font-size: calc(0.8rem + 0.35vw);
+}
+
+.row-txt-list{
+    font-size: calc(1.2rem + 0.4vw);
+}
+
+@media screen and (max-width: 992px) {
+    .name-div {
+        margin-left: 0px;
+    }
+
+    .nombre {
+        font-size: calc(3.5rem + 3.3vw);
+        margin-right: 1rem;
+    }
+
+    .apellido1 {
+        font-size: calc(2.5rem + 3.3vw);
+        margin-right: 1rem;
+    }
+
+    .apellido2 {
+        font-size: calc(2.5rem + 3.3vw);
+    }
+
+    h3 {
+        font-size: calc(1.4rem + 0.25vw);
+    }
+
+    .row-txt{
+        font-size: calc(0.65rem + 0.3vw);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .name-div {
+        margin-left: 0px;
+    }
+
+    .nombre {
+        font-size: calc(2.5rem + 3.3vw);
+        margin-right: 0.8rem;
+    }
+
+    .apellido1 {
+        font-size: calc(1.8rem + 3.3vw);
+        margin-right: 0.8rem;
+    }
+
+    .apellido2 {
+        font-size: calc(1.8rem + 3.3vw);
+    }
+
+    h3 {
+        font-size: calc(1.2rem + 0.25vw);
+    }
+
+    .row-txt{
+        font-size: calc(0.65rem + 0.3vw);
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .name-div {
+        margin-left: 0px;
+    }
+
+    .nombre {
+        font-size: calc(1.8rem + 3.3vw);
+        margin-right: 0.8rem;
+    }
+
+    .apellido1 {
+        font-size: calc(1.3rem + 3.3vw);
+        margin-right: 0.8rem;
+    }
+
+    .apellido2 {
+        font-size: calc(1.3rem + 3.3vw);
+    }
+
+    h3 {
+        font-size: calc(1rem + 0.25vw);
+    }
+}
+
+@media screen and (max-width: 432px) {
+    .name-div {
+        margin-left: 0px;
+    }
+
+    .nombre {
+        font-size: calc(1.6rem + 3.3vw);
+        margin-right: 0.8rem;
+    }
+
+    .apellido1 {
+        font-size: calc(1.1rem + 3.3vw);
+        margin-right: 0.8rem;
+    }
+
+    .apellido2 {
+        font-size: calc(1.1rem + 3.3vw);
+    }
+
+    h3 {
+        font-size: calc(0.6rem + 0.25vw);
+    }
+}

@@ -1,0 +1,15 @@
+#container3D {
+    height: 80vh;
+}
+
+#canvas3D {
+    width: 100vw !important;
+    height: 100vh !important;
+    position: absolute;
+    top: -100px;
+    left: 0px;
+}
+
+#canvas3D:hover {
+    cursor: pointer;
+}

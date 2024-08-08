@@ -1,0 +1,39 @@
+.list-group {
+    width: 60%;
+}
+
+.list-group-item {
+    background-color: black;
+    color: #fff;
+}
+
+.titulo-tec {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.last-item {
+    margin-bottom: 5rem;
+}
+
+
+@media screen and (max-width: 576px) {
+    .row-txt-list {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 432px) {
+    .titulo-tec {
+        margin-top: 5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .list-group{
+        font-size: calc(0.75rem + 0.2vw);
+    }
+
+    .last-item {
+        margin-bottom: 3rem;
+    }
+}
